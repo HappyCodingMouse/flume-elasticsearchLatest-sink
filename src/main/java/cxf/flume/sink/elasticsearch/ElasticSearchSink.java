@@ -255,6 +255,7 @@ public class ElasticSearchSink extends AbstractSink implements Configurable {
 
     Context serializerContext = new Context();
     serializerContext.putAll(context.getSubProperties(SERIALIZER_PREFIX));
+    System.out.println("======================================"+serializerClazz);
 
     try {
       @SuppressWarnings("unchecked")

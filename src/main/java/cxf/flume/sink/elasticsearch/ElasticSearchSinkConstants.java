@@ -106,8 +106,8 @@ public class ElasticSearchSinkConstants {
 public static final String DEFAULT_CLIENT_TYPE = "rest";
 
   public static final String TTL_REGEX = "^(\\d+)(\\D*)";
-  public static final String DEFAULT_SERIALIZER_CLASS = "org.apache.flume." +
+  public static final String DEFAULT_SERIALIZER_CLASS = "cxf.flume." +
           "sink.elasticsearch.ElasticSearchLogStashEventSerializer";
   public static final String DEFAULT_INDEX_NAME_BUILDER_CLASS =
-          "org.apache.flume.sink.elasticsearch.TimeBasedIndexNameBuilder";
+          "cxf.flume.sink.elasticsearch.TimeBasedIndexNameBuilder";
 }
